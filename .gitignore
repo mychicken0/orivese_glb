@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+# third-party models and their conversions stay local (licensing); examples/ holds a synthetic sample
+*.glb
+*.gltf
+*.zip
+*.weave
+!examples/sample_rigged.glb
+!examples/sample_rigged.weave
+cute-fox-ai-3d-model-generator-supavoxel/
+shaw-hornet-hollow-knight-silksong/

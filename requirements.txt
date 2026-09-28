@@ -1,0 +1,9 @@
+fast-simplification==0.2.0
+numpy>=2,<3
+pillow>=10,<12
+mcp==1.30.0
+# pinned below releases younger than a week at setup time (transitive deps of mcp)
+uvicorn<0.54
+starlette<1.7
+PyJWT<2.15
+scipy==1.18.1
